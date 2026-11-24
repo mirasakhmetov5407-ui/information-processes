@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Информационные процессы</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">Учебный интерактивный проект</p>
+      <h1>Информационные процессы</h1>
+      <p>Как информация создаётся, обрабатывается, хранится и передаётся.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro card">
+      <h2>Что такое информационный процесс?</h2>
+      <p>Это действие, которое выполняют с информацией. Например, человек получает сообщение, анализирует его, сохраняет и отправляет другому человеку.</p>
+    </section>
+
+    <section>
+      <h2>Основные этапы работы с информацией</h2>
+      <div class="process-grid">
+        <article class="step"><span>01</span><h3>Получение</h3><p>Сбор информации из книг, интернета, датчиков или от людей.</p></article>
+        <article class="step"><span>02</span><h3>Обработка</h3><p>Изменение, сортировка, сравнение и анализ полученных данных.</p></article>
+        <article class="step"><span>03</span><h3>Хранение</h3><p>Сохранение информации на бумаге, компьютере или сервере.</p></article>
+        <article class="step"><span>04</span><h3>Передача</h3><p>Отправка информации через интернет, сеть или другой канал связи.</p></article>
+        <article class="step"><span>05</span><h3>Защита</h3><p>Предотвращение потери, изменения и доступа посторонних лиц.</p></article>
+      </div>
+    </section>
+
+    <section class="card demo">
+      <h2>Практическая демонстрация</h2>
+      <p>Введи сообщение и последовательно выполни действия с информацией.</p>
+      <label for="message">Твоя информация</label>
+      <textarea id="message" rows="3" placeholder="Например: Завтра в 10:00 состоится занятие."></textarea>
+      <div class="actions">
+        <button id="processBtn">Обработать</button>
+        <button id="saveBtn" class="secondary">Сохранить</button>
+        <button id="sendBtn" class="secondary">Передать</button>
+        <button id="clearBtn" class="ghost">Очистить</button>
+      </div>
+      <div class="result" aria-live="polite">
+        <h3>Результат действий</h3>
+        <p id="status">Пока никаких действий не выполнено.</p>
+        <p id="output"></p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Где встречаются информационные процессы?</h2>
+      <ul>
+        <li><b>Банк:</b> получение данных о платеже, проверка и сохранение операции.</li>
+        <li><b>Мессенджер:</b> создание сообщения, его отправка и получение адресатом.</li>
+        <li><b>Библиотека:</b> поиск книги, запись сведений о ней и хранение каталога.</li>
+        <li><b>Медицина:</b> получение результатов анализов, обработка и хранение данных пациента.</li>
+      </ul>
+    </section>
+
+    <section class="conclusion">
+      <h2>Вывод</h2>
+      <p>Информационные процессы окружают нас каждый день. Они помогают получать знания, принимать решения, общаться и безопасно хранить важные сведения.</p>
+    </section>
+  </main>
+
+  <footer><div class="container">Учебный проект • Информационные процессы с информацией</div></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
